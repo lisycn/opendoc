@@ -1,5 +1,5 @@
 # Summary
 
 * [开放平台](README.md)
-* [First Chapter](chapter1.md)
+* [开发前必读](chapter1.md)
 
