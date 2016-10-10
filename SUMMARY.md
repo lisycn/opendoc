@@ -5,6 +5,6 @@
    * [用户注册](yonghuzhuce.md)
 * [SDK资源](sdkziyuan_md.md)
    * [SDK下载](sdkxiazai.md)
-   * 代码示例
+   * [代码示例](dai_ma_shi_li.md)
 * [接入说明](jierushuoming.md)
 
