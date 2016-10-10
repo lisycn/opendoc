@@ -7,8 +7,8 @@
 * [SDK资源](sdkziyuan_md.md)
    * [SDK下载](sdkxiazai.md)
    * [代码示例](dai_ma_shi_li.md)
-* [开发帮助](kai_fa_bang_zhu.md)
-   * 自助测试说明
+* [开发帮助](kaifa_bang_zhu_md.md)
+   * [自助测试说明](zi_zhu_ce_shi_shuo_ming.md)
    * 返回值说明
    * 上线说明
    * RSA使用说明
