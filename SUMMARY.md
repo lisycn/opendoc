@@ -10,6 +10,6 @@
 * [开发帮助](kai_fa_bang_zhu.md)
    * [自助测试说明](zi_zhu_ce_shi_shuo_ming.md)
    * [返回值说明](fan_hui_zhi_shuo_ming.md)
-   * 上线说明
+   * [上线说明](shang_xian_shuo_ming.md)
    * RSA使用说明
 
