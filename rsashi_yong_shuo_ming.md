@@ -67,7 +67,7 @@ HIiE4vUF9w==
 -----END RSA PRIVATE KEY-----
 
 通过程序生成RSA私钥及公钥，以Java生成为例：
-
+```
 package example;
 import java.security.Key;
 import java.security.KeyPair;
@@ -126,7 +126,7 @@ keyMap.put(PRIVATE_KEY, privateKey);
 return keyMap;
 }
 }
-
+```
 输出结果
 
 公钥 ：
