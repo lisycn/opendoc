@@ -1,7 +1,30 @@
 # 代码示例
 
 ```
-		VfinanceClient client = new DefaultVfinanceClient("http://func105.vfinance.cn/test/open-gw/gateway.do","appKey","your private_key");
+package com.netfinworks.open.sdktool.testsdk;
+
+import cn.vfinance.api.DefaultVfinanceClient;
+import cn.vfinance.api.VfinanceApiException;
+import cn.vfinance.api.VfinanceClient;
+import cn.vfinance.api.request.VfinanceCommonRequest;
+import cn.vfinance.api.response.VfinanceResponse;
+
+
+/**
+ * <p>sdk 调用示例</p>
+ * @author Teder Yin
+ * @version $Id: SDKTest.java, v 0.1 2016年9月27日 上午9:58:22 yindezhou Exp $
+ */
+public class SDKTest {
+	//网关url
+	static String url="http://func105.vfinance.cn/open-gw/gateway.do";
+	static String appKey="2016100918582015038989";
+	//秘钥（rsa私钥,md5key)
+	static String secretKey="MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANGf0yx4yDYLC+OUZkzOmnbGLdQ7zZNRaEZ0HQzD9UVUFbMdVbtbr1S7fPjcEWNRaZucO1rarAqVjtsO2aaY8iHYUMfSXR2pVarUaYTqQv2cQQVZEgCDpna4nY7cezExdB+Pvfdembr37SmBaQJ50DL59M25arKTLFDxAqPVJZR7AgMBAAECgYA+/7mHdAU3uLop+z+DddQWPhkn35E45Q5hniPc4kekPlEHM5nAZR2caXx1ji3rm1wR2DI+a9molKoKS7w9xVl/JuUIynvNzSFx9j8KHDbeZjNBLSXM42IopW7C6G0kkJ9y+EKSFv9J6+Mir/LuiGtKycNEDkKbDjD7SSw9R3HzAQJBAPfH43rq+0et+9iAZA2DOn0xkC41pWO8dOEMMmbVrLuuJTAyOqnTquX++skFU0CeVVFCqc7HxFia/JrNuMLYrMMCQQDYk+sAqpeOKyBuRrTIxae1ZQqvqDw6ISsgrH7jPcizRxM6dO9TA5t3dCC/Ldeg1vH5M7p14jzT4u9X+wVvRN3pAkEAq+xdEa+z1OOKqIlFYv7X+YAHW5jLfi2IJ5LP8fx20u6dTRi9DZMZtGY8WnjAcEisSCrqKdkAir5XYY42kbPIAwJBALJpiBpQbfEsDddKX/tU+EcyKY9y48pvMHwGHbFNYFxvnKN3WP/l5NiOzbswJIXXDBbiSiR6bumN9OVhYKS88qECQD3jrYU+xCXtd67ZD3RlZycImvJbI6F9GhMLVjHPzkPgiZ1uNo3SlzS30Q4Pt2OlekFpgIMVXxC1lan1fsBXCa8=";
+	
+	public static void main(String[] args) {
+	
+		VfinanceClient client = new DefaultVfinanceClient(url,appKey,secretKey);
 		VfinanceCommonRequest request=new VfinanceCommonRequest();
 		request.setMethod("com.netfinworks.ma.queryBalance");
 		request.setBizContent("{\"account_type\":\"101\",\"identity_no\":\"288888888888\",\"identity_type\":\"MEMBER_ID\",\"service\":\"query_balance\"}");
@@ -15,4 +38,10 @@
 		} catch (VfinanceApiException e) {
 			System.out.println("调用失败！");
 		}
+
+	}
+	
+
+}
+
 ```
