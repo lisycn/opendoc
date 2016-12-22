@@ -4,6 +4,7 @@
 * [开发前必读](chapter1.md)
     * [用户注册](yonghuzhuce.md)
     * [实名认证](实名认证.md)
+        * [测试](测试.md)
     * [应用签名](应用签名.md)
     * [产品签约](产品签约.md)
     * [接入说明](jierushuoming.md)
