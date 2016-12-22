@@ -1,5 +1,5 @@
 ```
-    Summary
+Summary
 ```
 
 * [开放平台概述](README.md)
@@ -11,8 +11,6 @@
   * [接入说明](jierushuoming.md)
   * 服务方接入
 * [接入说明一级](接入说明一级.md)
-
-                客户端接入
 
 
 
