@@ -11,7 +11,7 @@ Summary
   * [接入说明](jierushuoming.md)
 * 接入说明一级
 
-* * * * * 服务方接入
+* * 服务方接入
 
 
 
