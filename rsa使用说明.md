@@ -8,7 +8,7 @@ Windows用户 开发者可以在OpenSSL官方网站下载Windows的OpenSSL安装
 
 ## 二、RSA私钥及公钥生成
 
-### 1.Linux用户（以Ubuntu为例）
+**1.Linux用户（以Ubuntu为例）**
 
 $ openssl 进入OpenSSL程序
 
@@ -20,7 +20,7 @@ OpenSSL&gt; rsa -in rsa\_private\_key.pem -pubout -out rsa\_public\_key.pem 生�
 
 OpenSSL&gt; exit \#\# 退出OpenSSL程序
 
-## 2.Windows用户在cmd窗口中进行以下操作：
+**2.Windows用户在cmd窗口中进行以下操作：**
 
 C:\Users\Hammer&gt;cd C:\OpenSSL-Win32\bin 进入OpenSSL安装目录
 
