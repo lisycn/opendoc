@@ -1,5 +1,5 @@
 {
     "plugins": [
-        "downloadpdf"
+        "9dots-anchors"
     ]
 }
